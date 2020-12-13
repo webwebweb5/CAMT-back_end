@@ -54,6 +54,7 @@ div {
       <th>Last Name</th>
       <th>E-mail</th>
       <th>Product</th>
+      <th>Edit</th>
     </tr>
   <thead>
 ';
@@ -67,6 +68,7 @@ echo '
       <td>'.$row['last_name'].'</td>
       <td>'.$row['email'].'</td>
       <td>'.$row['product'].'</td>
+      <td><div><input type="submit" name="delete" value="Delete"></div></td>
     </tr>
   <tbody>
 ';
