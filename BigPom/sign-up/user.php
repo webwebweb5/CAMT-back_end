@@ -3,8 +3,7 @@
 include('mail.php');
 
 if (empty($_POST['first_name']) || empty($_POST['last_name']) || empty($_POST['email']) || empty($_POST['product'])){
-echo "<p>You must enter your firstname lastname and email! Click your browser's Back button to return to the
-information form.</p>";
+echo "<p style='font-size: 200px'>BigPom knows your position!!!</p>";
 } else {
     $DBConnect = mysqli_connect("localhost", "root", "");
     if ($DBConnect) {
